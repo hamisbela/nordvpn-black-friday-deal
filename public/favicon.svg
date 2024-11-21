@@ -1,9 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128">
-    <path d="M50.4 78.5a75.1 75.1 0 0 0-28.5 6.9l24.2-65.7c.7-2 1.9-3.2 3.4-3.2h29c1.5 0 2.7 1.2 3.4 3.2l24.2 65.7s-11.6-7-28.5-7L67 45.5c-.4-1.7-1.6-2.8-2.9-2.8-1.3 0-2.5 1.1-2.9 2.7L50.4 78.5Zm-1.1 28.2Zm-4.2-20.2c-2 6.6-.6 15.8 4.2 20.2a17.5 17.5 0 0 1 .2-.7 5.5 5.5 0 0 1 5.7-4.5c2.8.1 4.3 1.5 4.7 4.7.2 1.1.2 2.3.2 3.5v.4c0 2.7.7 5.2 2.2 7.4a13 13 0 0 0 5.7 4.9v-.3l-.2-.3c-1.8-5.6-.5-9.5 4.4-12.8l1.5-1a73 73 0 0 0 3.2-2.2 16 16 0 0 0 6.8-11.4c.3-2 .1-4-.6-6l-.8.6-1.6 1a37 37 0 0 1-22.4 2.7c-5-.7-9.7-2-13.2-6.2Z" />
-    <style>
-        path { fill: #000; }
-        @media (prefers-color-scheme: dark) {
-            path { fill: #FFF; }
-        }
-    </style>
+<svg id='Discount_24' width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='24' height='24' stroke='none' fill='#000000' opacity='0'/>
+
+
+<g transform="matrix(0.42 0 0 0.42 12 12)" >
+<g style="" >
+<g transform="matrix(1 0 0 1 0 0)" >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(244,67,54); fill-rule: nonzero; opacity: 1;" transform=" translate(-24, -24)" d="M 24 2 L 28.506 7.029 L 35 5 L 36.465 11.535 L 43 13 L 41 19.494 L 46 24 L 41 28.506 L 43 35 L 36.465 36.465 L 35 43 L 28.506 40.971000000000004 L 24 46 L 19.494 40.971000000000004 L 13 43 L 11.535 36.465 L 5 35 L 7 28.506 L 2 24 L 7 19.494 L 5 13 L 11.535 11.535 L 13 5 L 19.494 7.029 L 24 2 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 0 0)" >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" translate(-24, -24)" d="M 20 32.301 L 18.301 31.301000000000002 L 28 15.699 L 29.699 16.698999999999998 L 20 32.301 z M 19 14 C 17.199 14 15 15.102 15 18 L 15 19 C 15 20.801 16.102 23 19 23 C 21.102 23 23 21.602 23 19 L 23 18 C 23 15.5 21.301 14 19 14 z M 20.801 19 C 20.801 20.301 20.101999999999997 21 19 21 C 18.102 21 17.199 20.398 17.199 19 L 17.199 18 C 17.199 16.602 18.101000000000003 15.898 19 15.898 C 20.398 15.898 20.801 17.198999999999998 20.801 18 L 20.801 19 z M 29 34 C 30.801 34 33 32.898 33 30 L 33 29 C 33 27.199 31.898 25 29 25 C 26.898 25 25 26.398 25 29 L 25 30 C 25 32.5 26.699 34 29 34 z M 27.199 29 C 27.199 27.699 27.898000000000003 27 29 27 C 29.898 27 30.801 27.602 30.801 29 L 30.801 30 C 30.801 31.398 29.898999999999997 32.102 29 32.102 C 27.602 32.102 27.199 30.801 27.199 29.999999999999996 L 27.199 29 z" stroke-linecap="round" />
+</g>
+</g>
+</g>
 </svg>
