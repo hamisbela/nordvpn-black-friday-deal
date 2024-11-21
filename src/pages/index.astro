@@ -1,0 +1,165 @@
+---
+import Layout from '../layouts/Layout.astro';
+import FeatureCard from '../components/FeatureCard.astro';
+
+const plans = [
+  {
+    title: "Ultra Plan",
+    value: "73% OFF",
+    description: "€7.09/mo + 3 months FREE with NordVPN Black Friday Ultra deal"
+  },
+  {
+    title: "Complete Plan",
+    value: "69% OFF",
+    description: "€5.49/mo + 3 months FREE with NordVPN Black Friday Complete deal"
+  },
+  {
+    title: "Plus Plan",
+    value: "70% OFF",
+    description: "€4.49/mo + 3 months FREE with NordVPN Black Friday Plus deal"
+  }
+];
+
+const features = [
+  {
+    title: "Security Features",
+    features: [
+      "Secure, high-speed VPN service",
+      "Threat Protection Pro™",
+      "Advanced malware protection",
+      "Ad and tracker blocker"
+    ]
+  },
+  {
+    title: "Premium Features",
+    features: [
+      "Password manager included",
+      "Data Breach Scanner",
+      "1 TB encrypted cloud storage",
+      "Incogni data removal tool (Ultra plan)"
+    ]
+  }
+];
+---
+
+<Layout 
+  title="NordVPN Black Friday Deal 2024 - Up to 73% OFF + 3 Months FREE [Official]" 
+  description="🔥 Exclusive NordVPN Black Friday Deal 2024: Get up to 73% discount + 3 months FREE. Best VPN deal with advanced security features. Limited time offer!">
+  
+  <main class="max-w-4xl mx-auto px-4 py-12">
+    <!-- Hero Section -->
+    <section class="text-center mb-16">
+      <div class="mb-4 text-green-600 font-semibold flex items-center justify-center gap-2">
+        <span class="inline-block w-2 h-2 bg-green-600 rounded-full"></span>
+        Official Black Friday Deal • Limited Time
+      </div>
+      <h1 class="text-4xl md:text-5xl font-bold mb-6">
+        NordVPN Black Friday Deal 2024
+        <span class="block text-gray-600 text-2xl mt-2">Save up to 73% + Get 3 Months FREE</span>
+      </h1>
+      <p class="text-xl text-gray-600 mb-8">
+        Last updated Nov. 2024 • Black Friday Special Offer
+      </p>
+      <a href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=92957&source=lp" 
+         class="inline-block bg-blue-600 text-white text-xl font-bold py-4 px-8 rounded-lg hover:bg-blue-700 transition-colors">
+        Claim Your Black Friday VPN Deal
+      </a>
+      <p class="text-sm text-gray-500 mt-2">30-day money-back guarantee • Limited time offer</p>
+    </section>
+
+    <!-- Plans Grid -->
+    <section class="grid md:grid-cols-3 gap-8 mb-16">
+      {plans.map(plan => <FeatureCard {...plan} />)}
+    </section>
+
+    <!-- Pricing Table -->
+    <section class="bg-white rounded-lg p-8 mb-16 shadow-sm">
+      <h2 class="text-2xl font-bold mb-6">NordVPN Black Friday Plans Comparison</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full">
+          <thead>
+            <tr class="border-b">
+              <th class="text-left p-4">Plan</th>
+              <th class="text-left p-4">Price</th>
+              <th class="text-left p-4">Discount</th>
+              <th class="text-left p-4">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b">
+              <td class="p-4"><strong>Ultra</strong></td>
+              <td class="p-4">€7.09/mo</td>
+              <td class="p-4">73% OFF</td>
+              <td class="p-4">€191.43</td>
+            </tr>
+            <tr class="border-b">
+              <td class="p-4"><strong>Complete</strong></td>
+              <td class="p-4">€5.49/mo</td>
+              <td class="p-4">69% OFF</td>
+              <td class="p-4">€148.23</td>
+            </tr>
+            <tr class="border-b">
+              <td class="p-4"><strong>Plus</strong></td>
+              <td class="p-4">€4.49/mo</td>
+              <td class="p-4">70% OFF</td>
+              <td class="p-4">€121.23</td>
+            </tr>
+            <tr>
+              <td class="p-4"><strong>Basic</strong></td>
+              <td class="p-4">€3.59/mo</td>
+              <td class="p-4">69% OFF</td>
+              <td class="p-4">€96.93</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-sm text-gray-500 mt-4">*Prices shown for 27-month plans (2 years + 3 months FREE)</p>
+    </section>
+
+    <!-- Features -->
+    <section class="space-y-8 mb-16">
+      {features.map(section => (
+        <div class="bg-white rounded-lg p-8 shadow-sm">
+          <h3 class="text-2xl font-bold mb-4">{section.title}</h3>
+          <ul class="space-y-3">
+            {section.features.map(feature => (
+              <li class="flex items-start gap-3">
+                <span class="text-blue-600">✓</span>
+                <span>{feature}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="bg-white rounded-lg p-8 mb-16 shadow-sm">
+      <h2 class="text-2xl font-bold mb-6">NordVPN Black Friday Deal FAQ</h2>
+      <div class="space-y-6">
+        <div>
+          <h3 class="font-bold mb-2">What's included in the NordVPN Black Friday deal?</h3>
+          <p class="text-gray-600">This Black Friday offer includes up to 73% OFF plus 3 months FREE on all 2-year plans. Each plan includes different features, from basic VPN service to complete security packages with cloud storage and password management.</p>
+        </div>
+        <div>
+          <h3 class="font-bold mb-2">Which NordVPN plan should I choose?</h3>
+          <p class="text-gray-600">The Ultra plan offers the most value with all premium features included. However, the Plus plan is our most popular option, providing essential security features at a great price point.</p>
+        </div>
+        <div>
+          <h3 class="font-bold mb-2">Is there a money-back guarantee?</h3>
+          <p class="text-gray-600">Yes, NordVPN offers a 30-day money-back guarantee with all Black Friday deals, allowing you to try the service risk-free.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Bottom -->
+    <section class="text-center">
+      <h2 class="text-2xl font-bold mb-4">Don't Miss This NordVPN Black Friday Deal!</h2>
+      <a href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=92957&source=lp" 
+         class="inline-block bg-blue-600 text-white text-xl font-bold py-4 px-8 rounded-lg hover:bg-blue-700 transition-colors">
+        Save 73% + Get 3 Months FREE
+      </a>
+      <p class="text-sm text-gray-500 mt-2">Black Friday Special: 30-day money-back guarantee</p>
+    </section>
+  </main>
+</Layout>
